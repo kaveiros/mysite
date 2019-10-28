@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap'
 import '../App.css';
-import skillsimg from './images/skillsimg.jpg'
 import {Link} from 'react-router-dom'
 
 
@@ -11,9 +10,8 @@ const Skills = () => {
         <div className="container vertical-center">
             <Card>
                 <Card.Body>
-                    {/* <Card.Img variant="top" style={{ width: '18rem', height: '18rem' }} src={skillsimg} /> */}
                     <Card.Title>
-                        Skills
+                       What I do
                         </Card.Title>
                     <Card.Text>
                         <p className="cd-text">
@@ -35,6 +33,8 @@ const Skills = () => {
                         <p className="cd-text">
                             I prefer NOSQL databases like Google datastore, Google firestore, MongoDB, ArangoDB.
                             Oracle, Postgres, MariaDB are SQL databases that I have used.
+                        </p>
+                        <p>
                         <Link to='/contact'><Card.Link href="#">Contact me</Card.Link></Link>
                         </p>
 

@@ -12,9 +12,9 @@ const Dashboard = () => {
                 <p>
                     Programming is my passion.
                 </p>
-                {/* <p>
-                <Link to='/objective'><Button variant="primary">My objective</Button></Link>
-                </p> */}
+                <p>
+                <Link to='/about'><a href="#">Find out more...</a></Link>
+                </p>
             </Jumbotron>
         </div>
     )
